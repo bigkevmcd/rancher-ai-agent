@@ -369,6 +369,8 @@ def _get_default_ai_agent_config_crds() -> list:
                     "moveNamespace",
                     "deleteGlobalRole",
                     "deleteGlobalRoleBinding",
+                    "updateProjectQuota",
+                    "updateNamespaceQuota",
                 ]
             }
         },
